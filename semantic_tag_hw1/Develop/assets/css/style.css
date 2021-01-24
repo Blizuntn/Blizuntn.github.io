@@ -201,9 +201,15 @@ These are the stylyings for the 3 boxes on the left side of the page
     background-color: #0072bb;
     color: #ffffff;
 }
+
+
+
 /* 
 These are the images that are inside the 3 styled boxes
 */
+
+
+
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -215,9 +221,15 @@ These are the images that are inside the 3 styled boxes
 .social-media-marketing img {
     max-height: 200px;
 }
+
+
+
 /* 
 These are the headings of each styled box
 */
+
+
+
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
