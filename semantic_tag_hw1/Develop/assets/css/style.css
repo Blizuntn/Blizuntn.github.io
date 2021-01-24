@@ -3,11 +3,24 @@
     padding: 0;
     margin: 0;
 }
+/***************************************************TagSelectors****************************************************************/
 
 body {
     background-color: #d9dcd6;
 }
+link {
+    color: #ffffff;
+    text-decoration: none;
+}
 
+p {
+    font-size: 16px;
+}
+
+/********************************************************ClassSelectors*********************************************************/
+/*
+These properties belong to the very top portion of the page that has 3 links
+*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,16 +53,7 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-
-link {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/*image properties and where the boxes are positioned on the screen*/
 .hero {
     height: 800px;
     width: 100%;
@@ -74,7 +78,9 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/*
+This section of th page is where the benefits are listed on the right side of the page after you scroll down past the image
+*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -133,7 +139,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* 
+These are the stylyings for the 3 boxes on the left side of the page 
+*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,7 +168,9 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* 
+These are the images that are inside the 3 styled boxes
+*/
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -172,7 +182,9 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/* 
+These are the headings of each styled box
+*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
