@@ -3,7 +3,11 @@
     padding: 0;
     margin: 0;
 }
+
+
 /***************************************************TagSelectors****************************************************************/
+
+
 
 body {
     background-color: #d9dcd6;
@@ -16,11 +20,22 @@ link {
 p {
     font-size: 16px;
 }
+aside {
+    display: inline;
+
+}
+
 
 /********************************************************ClassSelectors*********************************************************/
+
+
+
 /*
 These properties belong to the very top portion of the page that has 3 links
 */
+
+
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -53,7 +68,13 @@ These properties belong to the very top portion of the page that has 3 links
     display: inline-block;
     margin-left: 25px;
 }
+
+
+
 /*image properties and where the boxes are positioned on the screen*/
+
+
+
 .hero {
     height: 800px;
     width: 100%;
@@ -78,9 +99,15 @@ These properties belong to the very top portion of the page that has 3 links
     display: inline-block;
     margin-left: 20px;
 }
+
+
+
 /*
 This section of th page is where the benefits are listed on the right side of the page after you scroll down past the image
 */
+
+
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -139,9 +166,15 @@ This section of th page is where the benefits are listed on the right side of th
     margin: 10px auto;
     max-width: 150px;
 }
+
+
+
 /* 
 These are the stylyings for the 3 boxes on the left side of the page 
 */
+
+
+
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
